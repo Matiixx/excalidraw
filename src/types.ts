@@ -505,6 +505,7 @@ export type AppProps = Merge<
     handleKeyboardGlobally: boolean;
     isCollaborating: boolean;
     children?: React.ReactNode;
+    onKeyUp?: (event: KeyboardEvent, appState: AppState) => void;
   }
 >;
 
